@@ -1,0 +1,30 @@
+如何使用（示例）
+
+默认（RTCore64）检查状态：
+
+DSE-Patcher.exe --status
+
+
+使用 driver index（例如 1）并禁用：
+
+DSE-Patcher.exe --driver 1 --disable
+
+
+使用 driver 名称（例如 dbutil）并禁用：
+
+DSE-Patcher.exe --driver dbutil --disable
+Need
+MSVCP140D.DLL
+vcruntime140d.dll
+vcruntime140_1d.dll
+ucrtbased.dll
+输出示例（成功场景）：
+[CLI] Selected driver provider: RTCore64 v4.6.2 (from MSI Afterburner v4.6.2 Build 15658)
+Checking DSE status...
+[CLI] Operation finished. Return code: 0 (success)
+[CLI] Target module: ntoskrnl.exe
+[CLI] DSE actual value:   1
+[CLI] DSE original value: 1
+[CLI] DSE disable value:  0
+[CLI] DSE enable value:   1
+[CLI] Driver file used: C:\path\to\RTCore64.sys
