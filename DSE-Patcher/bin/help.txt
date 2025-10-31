@@ -1,4 +1,6 @@
-如何使用（示例）（不加参数默认help，没反应检查dll）（双击打开会弹窗缺什么）
+建议：powershell（admin)--cmd--PATH_TO_EXE
+
+如何使用（示例）（不加参数默认help）
 默认（RTCore64）检查状态：
 DSE-Patcher.exe --status
 使用 driver index（例如 1）并禁用：
